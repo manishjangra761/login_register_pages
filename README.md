@@ -11,5 +11,10 @@ http://localhost:3000/login
 
 Backend:
 
+create .env and paste 
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/hospital_db
+JWT_SECRET="thisissecretkeyforauthentication"
+
 Run npm install
 Then run npm start
